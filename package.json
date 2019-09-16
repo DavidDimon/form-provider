@@ -1,0 +1,19 @@
+{
+  "name": "form-provider",
+  "private": true,
+  "scripts": {
+    "start": "poi --serve",
+    "build": "poi --prod"
+  },
+  "dependencies": {
+    "formik": "^1.5.8",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "babel-preset-poi": "^10.0.2",
+    "poi": "^12.7.2"
+  }
+}
